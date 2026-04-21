@@ -13,19 +13,8 @@
     }
   }
 
-  function redirectAffiliate() {
-    var currentUrl = window.location.href;
-
-    if (currentUrl === "https://www.mohdpurwadi.web.id/hostinger2026") {
-      window.location.replace(
-        "https://www.hostinger.com?REFERRALCODE=LDGADIARYRAD"
-      );
-    }
-  }
-
   function init() {
     checkBanner();
-    redirectAffiliate();
   }
 
   if (document.readyState === "loading") {
